@@ -13,8 +13,6 @@
     {
         "js": ["scripts/content.js"],
         "matches": [
-        "https://developer.chrome.com/docs/extensions/*",
-        "https://developer.chrome.com/docs/webstore/*",
         "https://www.amazon.com/gp/buy/spc/*"
         ],
         "run_at": "document_end"
@@ -24,14 +22,6 @@
     "web_accessible_resources": [{
         "resources" : ["/images/*", "/css/*", "/html/*"],
         "matches" : ["https://www.amazon.com/*"]
-    }],
-    "host_permissions": [
-        "http://*/*",
-        "https://*/*"
-      ],
-      "permissions": [
-        "activeTab",
-        "tabs"
-      ]
+    }]
 
   }
