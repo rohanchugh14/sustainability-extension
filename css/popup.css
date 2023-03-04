@@ -1,0 +1,18 @@
+.popup-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    background: #f00;
+    position: fixed;
+    top: 10;
+    right: 10;
+    width: 32.5vw;
+    z-index: 999;
+    border-width: 15px 2px;
+    border-style: solid;
+    border-color: #74B4CF;
+    border-radius: 15px;
+    /* display: none; */
+}
