@@ -17,11 +17,18 @@
         ],
         "run_at": "document_end"
     }
-    
     ],
+    "permissions": [
+    "tabs", "activeTab","webNavigation"
+    ],
+    "host_permissions": ["https://www.amazon.com/*"],
+    "background": {
+        "service_worker": "/scripts/background.js"
+      },
     "web_accessible_resources": [{
         "resources" : ["/images/*", "/css/*", "/html/*"],
         "matches" : ["https://www.amazon.com/*"]
+        
     }]
 
   }
