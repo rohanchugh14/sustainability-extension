@@ -112,6 +112,7 @@ if(elements.length > 0){
     myDiv.style.borderColor = '#74B4CF';
     myDiv.style.borderRadius = '15px';
     myDiv.style.padding = '15px';
+    myDiv.style.filter = "drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.25))"
     myDiv.id = "second-thought-popup";
 
     // create an img tag that is absolute positioned at top right for close button
